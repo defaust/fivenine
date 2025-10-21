@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.net.URI;
 
 @RestController
-@RequestMapping("/users") // итоговый путь: /api/v1/users (из твоего context-path)
+@RequestMapping("/users")
 public class UserController {
 
     private final UserService service;

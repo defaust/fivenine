@@ -15,7 +15,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update    # create / create-drop / update / validate
+      ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
     open-in-view: false
 
